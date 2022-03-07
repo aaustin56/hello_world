@@ -36,6 +36,10 @@ Note: Creating a personal access token can be done here:
 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
+Also:
+
+https://techglimpse.com/git-push-github-token-based-passwordless/
+
 8. Create a new pull request (PR) on github.com
 
 9. Wait for PR approval from other teammates.
