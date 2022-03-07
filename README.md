@@ -40,7 +40,7 @@ Also:
 
 https://techglimpse.com/git-push-github-token-based-passwordless/
 
-8. Create a new pull request (PR) on github.com
+8. Creat a new pull request (PR) on github.com
 
 9. Wait for PR approval from other teammates.
 
