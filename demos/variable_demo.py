@@ -56,9 +56,14 @@ print("The temperature of the sun is " + str(sun_temperature) + "K")
 
 # That's it for now!  Here are some exercises:
 
-# 1.) Create a new file in our repository under the exercises folder called variable-exercise.py
+# 1.) Create a new directory under our repository called 'exercises'.
 
-# 2.) Declare four variables and assign them some values as follows:
+# 2.) Create a new file under this directory variable-exercise.py
+
+# 3.) In this new file:
+
+#     Declare four variables and assign them some values as follows:
+
 #     a.) declare an variable with an identifier without snakecase, assign it an integer
 #     b.) declare an variable with an identifier without snakecase, assign it a string
 #     c.) declare an variable with an identifier with snakecase, assign it an integer
