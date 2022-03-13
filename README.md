@@ -30,7 +30,7 @@ This can include editing existing files as well as creating new files for new co
 
 7. Push changes on new branch to github
 
-`git push https://<personal-access-token>/aaustin56/hello_world`
+`git push https://<personal-access-token>@github.com/aaustin56/hello_world`
 
 Note: Creating a personal access token can be done here:
 
