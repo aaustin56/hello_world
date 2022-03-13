@@ -1,3 +1,4 @@
+#Adrienne exercise 1
 singer = 6
 ade = "adriennethesinger"
 mixer_dog = 5
@@ -6,4 +7,3 @@ print(singer)
 print(ade)
 print(mixer_dog)
 print(sally_woman)
-
