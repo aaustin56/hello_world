@@ -12,6 +12,17 @@ The steps for all this include the following:
 
 `git branch my-new-branch`
 
+Two notes to mention:
+
+Branch names generally are lower case with dashes '-' used as spaces between words.
+
+Name your branch something descriptive.  For example:
+
+	`updating-readme`
+	`fixing-print-bug`
+	'updating-logging`
+	`adding-browse-products-feature`
+
 3. Checkout the new branch.
 
 `git checkout my-new-branch`
@@ -41,6 +52,8 @@ Also:
 https://techglimpse.com/git-push-github-token-based-passwordless/
 
 8. Create a new pull request (PR) on github.com
+
+
 
 9. Wait for PR approval from other teammates.
 
