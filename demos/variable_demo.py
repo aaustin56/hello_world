@@ -56,11 +56,13 @@ print("The temperature of the sun is " + str(sun_temperature) + "K")
 
 # That's it for now!  Here are some exercises:
 
-# 1.) Create a new directory under our repository called 'exercises'.
+# 1.) Create a new branch for this new exercise called 'exercise-1'
 
-# 2.) Create a new file under this directory variable-exercise.py
+# 2.) Create a new directory under our repository called 'exercises'.
 
-# 3.) In this new file:
+# 3.) Create a new file under this directory variable-exercise.py
+
+# 4.) In this new file:
 
 #     Declare four variables and assign them some values as follows:
 
@@ -69,4 +71,12 @@ print("The temperature of the sun is " + str(sun_temperature) + "K")
 #     c.) declare an variable with an identifier with snakecase, assign it an integer
 #     d.) declare an variable with an identifier with snakecase, assign it a string
 
+#     Add a comment at the top of the file with your name and the exercise number.
+
 # Be creative about your variable names!
+
+# 5.) Commit your changes.
+
+# 6.) Push your changes to github.
+
+# 7.) Go through the PR process to get your changes merged in.
