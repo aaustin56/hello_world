@@ -12,9 +12,47 @@ Information on Git
 
 https://git-scm.com/doc
 
+Here's a quick list of commands:
+
+```
+# clone a repository from github to your local computer
+git clone [repository_path]
+
+# check the status of your local git repository
+git status
+
+# list existing branches
+git branch
+
+# create a new branch
+git branch [branch_name]
+
+# checkout an existing branch
+git checkout [branch_name]
+
+# checkout an existing branch, creating it if it does not exist
+git checkout -b [branch_name]
+
+# add an untracked file (for example a newly created one) to your branch
+git add [path_to_file_name]
+
+# commit all existing changes to your branch
+git commit -a -m 'message'
+
+# push all commits on your local branch to Github
+git push https://[personal-access-token]@github.com/[github_user_name]/[path_to_repository]`
+
+# display differences from your existing saved files and the last commit
+git diff
+
+# pull the latest from Github to your local git repository
+git pull
+```
+
 A Git Cheatsheet
 
 https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+
 
 Information on linux terminal commands
 
@@ -79,7 +117,7 @@ Make sure to add a descriptive and useful message.
 
 7. (in your terminal) Push changes on new branch to github
 
-`git push https://<personal-access-token>@github.com/aaustin56/hello_world`
+`git push https://[personal-access-token]@github.com/aaustin56/hello_world`
 
 Note: Creating a personal access token can be done here:
 
@@ -109,5 +147,5 @@ In this case, those developers should:
 	1.) switch to main in local
 	2.) pull latest
 	3.) switch to their branch
-	4.) `git rebase`
+	4.) `git rebase main`
 		There may be merge conflicts which you'll have to resolve.
