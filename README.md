@@ -64,7 +64,7 @@ https://community.linuxmint.com/tutorial/view/244
 
 The steps for all this include the following:
 
-1. (in the terminal) Clone the repo to your local computer.
+*1. (in the terminal) Clone the repo to your local computer.*
 
 Make sure to navigate to the appropriate base directory where you want to store all your local (on your computer) code.
 
