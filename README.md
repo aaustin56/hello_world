@@ -21,24 +21,23 @@ When you begin to code, you basically always want to have three things running w
 
 **1.) Local Editor / Integrated Development Environment**
 
-This is where you will be editing code that exists on your computer.  Code can be written and edited in any editor, but special, programmer-specific editors are called Integrated Development Environments (IDE).
+> This is where you will be editing code that exists on your computer.  Code can be written and edited in any editor, but special, programmer-specific editors are called Integrated Development Environments (IDE).
 
-Use your favorite editor on your computer to edit code for your projects.
+> Use your favorite editor on your computer to edit code for your projects.
 
-A popular general-purpose editor is SublimeText.
+> A popular general-purpose editor is SublimeText.
 
-https://www.sublimetext.com/download
+>> https://www.sublimetext.com/download
 
-If you're coding in Python, the Pycharm IDE is very popular.
+> If you're coding in Python, the Pycharm IDE is very popular.
 
-https://www.jetbrains.com/pycharm/
+>> https://www.jetbrains.com/pycharm/
 
+> If you're coding in Java, the Eclipse IDE is very popular.
 
-If you're coding in Java, the Eclipse IDE is very popular.
+>> https://www.eclipse.org/downloads/
 
-https://www.eclipse.org/downloads/
-
-For now we will use SublimeText because using Pycharm and Eclipse is very complicated for our examples, but later we may use them.
+> For now we will use SublimeText because using Pycharm and Eclipse is very complicated for our examples, but later we may use them.
 
 **2.) Terminal**
 
