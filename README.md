@@ -4,60 +4,59 @@
 
 The purpose of this project is to demonstrate how we can follow the multi-step process of collaborative software development using Git.
 
-## References
 
-Here is a list of references that you can keep handy for remember what commands are available for Git or the terminal.
+## What is Git?
 
-Information on Git
+Git is a version control system that allows multiple developers to work on a single code base.  More detailed descriptions and documentation can be found here:
 
-https://git-scm.com/doc
+https://git-scm.com/
 
-Here's a quick list of commands:
+## What is Github?
 
-```
-# clone a repository from github to your local computer
-git clone [repository_path]
+Github is a cloud-based code store where users can store their code and work together to collaborate on creating software.
 
-# check the status of your local git repository
-git status
+## Your Environment
 
-# list existing branches
-git branch
+When you begin to code, you basically always want to have three things running where you'll be working:
 
-# create a new branch
-git branch [branch_name]
+**1.) Local Editor / Integrated Development Environment**
 
-# checkout an existing branch
-git checkout [branch_name]
+This is where you will be editing code that exists on your computer.  Code can be written and edited in any editor, but special, programmer-specific editors are called Integrated Development Environments (IDE).
 
-# checkout an existing branch, creating it if it does not exist
-git checkout -b [branch_name]
+Use your favorite editor on your computer to edit code for your projects.
 
-# add an untracked file (for example a newly created one) to your branch
-git add [path_to_file_name]
+A popular general-purpose editor is SublimeText.
 
-# commit all existing changes to your branch
-git commit -a -m 'message'
+https://www.sublimetext.com/download
 
-# push all commits on your local branch to Github
-git push https://[personal-access-token]@github.com/[github_user_name]/[path_to_repository]`
+If you're coding in Python, the Pycharm IDE is very popular.
 
-# display differences from your existing saved files and the last commit
-git diff
-
-# pull the latest from Github to your local git repository
-git pull
-```
-
-A Git Cheatsheet
-
-https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+https://www.jetbrains.com/pycharm/
 
 
-Information on linux terminal commands
+If you're coding in Java, the Eclipse IDE is very popular.
 
-https://community.linuxmint.com/tutorial/view/244
+https://www.eclipse.org/downloads/
 
+For now we will use SublimeText because using Pycharm and Eclipse is very complicated for our examples, but later we may use them.
+
+**2.) Terminal**
+
+The terminal is a text-based command prompt where you can input commands which are executed by your computer.
+
+A quick introduction to using the terminal can be found here:
+
+https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+
+You will be working extensively with the Terminal.  In Linux you can find it in your applications menu (press the windows key) and type in `terminal`.
+
+The terminal is where you will execute `git` commands which do the work of managing your software you're writing between your local computer and Github.
+
+**3.) Github**
+
+This is the online interface where our shared repository is stored.
+
+Here we do things like manage pull requests, do code reviews, merge code, manage repos etc.  This is the place where all individual developers' code meets to a common standard.
 
 ## A Complete Pull Request
 
@@ -164,3 +163,57 @@ In this case, those developers should:
 	3.) switch to their branch
 	4.) `git rebase main`
 		There may be merge conflicts which you'll have to resolve.
+
+## References
+
+Here is a list of references that you can keep handy for remember what commands are available for Git or the terminal.
+
+Information on Git
+
+https://git-scm.com/doc
+
+Here's a quick list of commands:
+
+```
+# clone a repository from github to your local computer
+git clone [repository_path]
+
+# check the status of your local git repository
+git status
+
+# list existing branches
+git branch
+
+# create a new branch
+git branch [branch_name]
+
+# checkout an existing branch
+git checkout [branch_name]
+
+# checkout an existing branch, creating it if it does not exist
+git checkout -b [branch_name]
+
+# add an untracked file (for example a newly created one) to your branch
+git add [path_to_file_name]
+
+# commit all existing changes to your branch
+git commit -a -m 'message'
+
+# push all commits on your local branch to Github
+git push https://[personal-access-token]@github.com/[github_user_name]/[path_to_repository]`
+
+# display differences from your existing saved files and the last commit
+git diff
+
+# pull the latest from Github to your local git repository
+git pull
+```
+
+A Git Cheatsheet
+
+https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+
+
+Information on linux terminal commands
+
+https://community.linuxmint.com/tutorial/view/244
