@@ -72,7 +72,7 @@ Make sure to navigate to the appropriate base directory where you want to store 
 
 Cloning your repository will copy it to your local computer.  From there you can work on creating new branches, updating your code with commits, push those branch back to git, and eventually merging them.
 
-2. (in the terminal) Create a new branch for your changes.
+**2. (in the terminal) Create a new branch for your changes.**
 
 `git branch my-new-branch`
 
@@ -87,7 +87,7 @@ Name your branch something descriptive.  For example:
 	'updating-logging`
 	`adding-browse-products-feature`
 
-3. (in your terminal) Checkout the new branch.
+**3. (in your terminal) Checkout the new branch.**
 
 `git checkout my-new-branch`
 
@@ -97,25 +97,25 @@ Note: We can combine steps 2 and 3 into one command:
 
 Which will create a new branch if necessary and check it out.
 
-4. (in your source code editor) Make changes to your code on this new branch.
+**4. (in your source code editor) Make changes to your code on this new branch.**
 
 This can include editing existing files as well as creating new files for new code, documention, etc.
 
 If you have to create new files, be sure to add them with `git add`.
 
-5. (in your terminal) Look at changes in our local branch.
+**5. (in your terminal) Look at changes in our local branch.**
 
 `git diff`
 
 Make sure the changes make sense.  You can also look at them in github which is easier on the eyes.
 
-6. (in your terminal) Commit changes to local branch.
+**6. (in your terminal) Commit changes to local branch.**
 
 `git commit -a -m 'Updating documentation'`
 
 Make sure to add a descriptive and useful message.
 
-7. (in your terminal) Push changes on new branch to github
+**7. (in your terminal) Push changes on new branch to github**
 
 `git push https://[personal-access-token]@github.com/aaustin56/hello_world`
 
@@ -127,16 +127,31 @@ Also:
 
 https://techglimpse.com/git-push-github-token-based-passwordless/
 
-8. (in github) Create a new pull request (PR) on github.com
+**8. (in github) Create a new pull request (PR) on github.com**
 
-9. (in github) Wait for PR approval from other teammates.
+Visit github.com and create a new pull request.
+
+If you've recently pushed a new branch to github there should be a green button near the top of the code-view's file listings for creating a new pull request.
+
+Otherwise you can find it by clicking on the `Pull requests` tab.
+
+Be sure to assign reviewers who will be required to approve your pull request.
+
+Fill out a nice detailed description explaining what you hope to accomplish with your pull request.
+
+**9. (in github) Wait for PR approval from other teammates.**
 
 Other developers may have comments on your PR.  Address them by either pushing back (argue with them!) or implement their suggested changes.
 
-10. (in github) Merge PR after approval.  Delete branch no longer in use.
+**10. (in github) Merge PR after approval.  Delete branch no longer in use.**
 
-11. (in your terminal) Update all local main branches.
+Now that your PR has been approved, either merge it yourself or have the reviewer merge it.  Generally it's good practice to have the PR writer merge it in case they have any last-minute ticky-tack changes they want to make to the PR before merging.
 
+**11. (in your terminal) Update all local main branches.**
+
+Back at your terminal, `git checkout main` to switch to your main branch, and `git pull` to update from Github's now updated `main` branch to your local `main` branch.
+
+Congratulations!  Now you've gone through the entire pull request process and merged code into an existing repository in Github!
 
 Note on rebase:
 
