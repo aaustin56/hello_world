@@ -41,24 +41,23 @@ When you begin to code, you basically always want to have three things running w
 
 **2.) Terminal**
 
-The terminal is a text-based command prompt where you can input commands which are executed by your computer.
-
-A quick introduction to using the terminal can be found here:
-
-https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
-
-You will be working extensively with the Terminal.  In Linux you can find it in your applications menu (press the windows key) and type in `terminal`.
-
-The terminal is where you will execute `git` commands which do the work of managing your software you're writing between your local computer and Github.
+>The terminal is a text-based command prompt where you can input commands which are executed by your computer.
+>
+>A quick introduction to using the terminal can be found here:
+>
+>https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+>
+>You will be working extensively with the Terminal.  In Linux you can find it in your applications menu (press the windows key) and type in `terminal`.
+>
+>The terminal is where you will execute `git` commands which do the work of managing your software you're writing between your local computer and Github.
 
 **3.) Github**
 
-This is the online interface where our shared repository is stored.
+    This is the online interface where our shared repository is stored.
 
-Here we do things like manage pull requests, do code reviews, merge code, manage repos etc.  This is the place where all individual developers' code meets to a common standard.
+    Here we do things like manage pull requests, do code reviews, merge code, manage repos etc.  This is the place where all individual developers' code meets to a common standard.
 
 ## A Complete Pull Request
-
 
 The steps for all this include the following:
 
