@@ -9,11 +9,13 @@ The purpose of this project is to demonstrate how we can follow the multi-step p
 
 Git is a version control system that allows multiple developers to work on a single code base.  More detailed descriptions and documentation can be found here:
 
-https://git-scm.com/
+[Git Source Control Management](https://git-scm.com/)
 
 ## What is Github?
 
 Github is a cloud-based code store where users can store their code and work together to collaborate on creating software.
+
+If you can read this, you're probably already here!
 
 ## Your Environment
 
@@ -27,15 +29,15 @@ When you begin to code, you basically always want to have three things running w
 >
 > A popular general-purpose editor is SublimeText.
 >
-> https://www.sublimetext.com/download
+> [SublimeText download site](https://www.sublimetext.com/download)
 >
 > If you're coding in Python, the Pycharm IDE is very popular.
 >
-> https://www.jetbrains.com/pycharm/
+> [Pycharm download site](https://www.jetbrains.com/pycharm/download/)
 >
 > If you're coding in Java, the Eclipse IDE is very popular.
 >
-> https://www.eclipse.org/downloads/
+> [Eclipse download site](https://www.eclipse.org/downloads/)
 >
 > For now we will use SublimeText because using Pycharm and Eclipse is very complicated for our examples, but later we may use them.
 
@@ -45,7 +47,7 @@ When you begin to code, you basically always want to have three things running w
 >
 >A quick introduction to using the terminal can be found here:
 >
->https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+>[Terminal Tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 >
 >You will be working extensively with the Terminal.  In Linux you can find it in your applications menu (press the windows key) and type in `terminal`.
 >
@@ -53,9 +55,9 @@ When you begin to code, you basically always want to have three things running w
 
 **3.) Github**
 
-    This is the online interface where our shared repository is stored.
-
-    Here we do things like manage pull requests, do code reviews, merge code, manage repos etc.  This is the place where all individual developers' code meets to a common standard.
+>This is the online interface where our shared repository is stored.
+>
+>Here we do things like manage pull requests, do code reviews, merge code, manage repos etc.  This is the place where all individual developers' code meets to a common standard.
 
 ## A Complete Pull Request
 
