@@ -1,3 +1,5 @@
+# Lesson 1: Introduction to Variables
+
 # 2022.03.11 This is a demonstration of declaring variables in python
 
 # Variable statements (lines of code) start with an identifier.
