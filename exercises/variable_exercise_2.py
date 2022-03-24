@@ -2,7 +2,6 @@
 x = 5
 print(x)
 
-
 my_name = "Adrienne Austin"
 print(my_name)
 
@@ -29,12 +28,10 @@ height = height + 1
 # ** (exponent)
 # 2 ** 3 gives us 8 
 
-
 print("my new height is" + str(height))
 
 print(3 + 4 / 2)
 print(type(3 + 4 / 2))
-
 
 # Lists 
 
